@@ -54,6 +54,8 @@ header{
 
 nav a:hover {
     background-color: darkblue;
+    animation-name: spin;
+    animation-duration: 3s;
 }
 nav a {
     text-decoration: none;
@@ -87,11 +89,20 @@ nav a {
         text-align: center;
         align-items: center;
     }
+}
+/* The animation code
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+
+  
+
 
     nav a {
         font-size: 1.5rpm;
     }
-    
+
     .training-option {
         margin-top: 5dvw;
      

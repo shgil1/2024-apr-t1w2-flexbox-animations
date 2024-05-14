@@ -52,6 +52,9 @@ header{
     border-radius: 20%;
 }
 
+nav a:hover {
+    background-color: darkblue;
+}
 nav a {
     text-decoration: none;
     background-color: #4E5B4B;
@@ -84,7 +87,10 @@ nav a {
         text-align: center;
         align-items: center;
     }
-}    
+
+    nav a {
+        font-size: 1.5rpm;
+    }
     
     .training-option {
         margin-top: 5dvw;
